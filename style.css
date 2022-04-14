@@ -1,0 +1,130 @@
+body{
+    font-size: 11px;
+    color: hsl(229, 7%, 55%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.abdelmaged{
+    width: 80vw;
+    height: 70vh;
+    background-color:hsl(229, 57%, 11%);
+    margin:10vh auto 3rem;
+    display: flex;
+ justify-content:center;
+    align-items: center;
+    column-gap: 15px;
+   row-gap: 15px;
+   background-image: url("bg-desktop.png");
+   background-position: bottom;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+@media (max-width:640px) {
+    .abdelmaged{
+        flex-direction: column;
+        background-image: url("bg-mobile.png");
+        background-position: center;
+        background-size: cover;
+    }
+    .abdelmaged div{
+        width: 80%;
+    }
+.abouda1 {
+position: absolute;
+margin-top: 200px;
+margin-right: 200px;
+height: 5px;
+}
+}
+.abouda{
+    width: 30vw;
+    height: 15vh;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 5px;
+    box-shadow: inset 0 3em hsl(229, 57%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+row-gap: 3px;
+}
+
+.abouda1{
+    width: 8vw;
+    height: 5vh;
+    background-color: beige;
+    border-radius: 3px;
+    margin-left: 53%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.abouda2{
+    width:80%;
+    height: 2vh;
+    line-height: 10%;
+ 
+}
+.abouda3 {
+    width: 80%;
+    height: 1vh;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 15px;
+}
+.abouda3 div{
+    width: 80%;
+    background:linear-gradient(hsl(6, 100%, 80%),hsl(335, 100%, 65%));
+    height: 1vh;
+        border-radius: 15px;
+}
+
+.abouda4{
+    width: 80%;
+    height: 2vh;
+   line-height: 10%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.mohamed{
+    width: 20vw;
+    height: 15vh;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 5px;
+    border-top-right-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    float: right;
+}
+
+.mohamed1{
+    width: 15vw;
+    height: 8vh;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.mohamed2{
+    width: 15vw;
+    height: 8vh;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    align-self: center;
+    align-items:center;
+     column-gap: 3px;
+}
+.mohamed2 div{
+    width: 3vw;
+    height: 3vh;
+    background-color:hsl(229, 57%, 11%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
